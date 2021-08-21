@@ -1,0 +1,28 @@
+{
+  "name": "resumewebsite-nodejs",
+  "version": "1.0.0",
+  "description": "A static resume website with a contact-form and connection to MongoDB",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DanteFrank/ResumeWebsite-NodeJS.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DanteFrank/ResumeWebsite-NodeJS/issues"
+  },
+  "homepage": "https://github.com/DanteFrank/ResumeWebsite-NodeJS#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemailer": "^6.6.3"
+  },
+  "devDependencies": {
+    "dotenv": "^10.0.0",
+    "nodemon": "^2.0.12"
+  }
+}
