@@ -15,21 +15,23 @@ contactForm.addEventListener("submit", (e) => {
     message: message.value,
   };
 
-  let xhr = new XMLHttpRequest();
-  xhr.open("POST", "/");
-  xhr.setRequestHeader("content-type", "application/json");
-  xhr.onload = () => {
-    console.log(xhr.responseText);
-    if (xhr.responseText == "success") {
-      alert("Email Sent Successfuly");
-      thename.value = "";
-      email.value = "";
-      subject.value = "";
-      message.value = "";
-    } else {
-      alert("Something went wrong. Please try again.");
-    }
-  };
+  alert("Submittted succesfully");
 
-  xhr.send(JSON.stringify(formData));
-});
+  // let xhr = new XMLHttpRequest();
+  // xhr.open("POST", "/");
+  // xhr.setRequestHeader("content-type", "application/json");
+  // xhr.onload = () => {
+  //   console.log(xhr.responseText);
+  //   if (xhr.responseText == "success") {
+  //     alert("Email Sent Successfuly");
+  //     thename.value = "";
+  //     email.value = "";
+  //     subject.value = "";
+  //     message.value = "";
+  //   } else {
+  //     alert("Something went wrong. Please try again.");
+  //   }
+  // };
+
+  // xhr.send(JSON.stringify(formData));
+};);
