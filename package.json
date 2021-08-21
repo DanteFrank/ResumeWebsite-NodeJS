@@ -4,8 +4,8 @@
   "description": "A static resume website with a contact-form and connection to MongoDB",
   "main": "app.js",
   "scripts": {
-    "start": "node app.js",
-    "dev": "nodemon app.js"
+    "start": "node index.js",
+    "dev": "nodemon index.js"
   },
   "repository": {
     "type": "git",
